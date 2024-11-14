@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T22:32:31 IST" name="Suite" finished-at="2024-11-13T22:34:01 IST" duration-ms="89433">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T22:32:31 IST" name="Test" finished-at="2024-11-13T22:34:01 IST" duration-ms="89433">
+      <class name="testCase.TC0010_EndT0EndTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC0010_EndT0EndTest@63787180]" started-at="2024-11-13T22:32:31 IST" name="setup" finished-at="2024-11-13T22:32:37 IST" duration-ms="5346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_EndToEnd()[pri:0, instance:testCase.TC0010_EndT0EndTest@63787180]" started-at="2024-11-13T22:32:37 IST" name="verify_EndToEnd" finished-at="2024-11-13T22:34:00 IST" duration-ms="83531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_EndToEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC0010_EndT0EndTest@63787180]" started-at="2024-11-13T22:34:00 IST" name="tearDown" finished-at="2024-11-13T22:34:01 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC0010_EndT0EndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

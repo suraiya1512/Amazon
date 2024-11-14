@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCase.TC004_AddToCartTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.TC004_AddToCartTest -->
+      <class name="testCase.TC006_CheckOutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Verify_CheckOut"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.TC006_CheckOutTest -->
+      <class name="testCase.TC008_PlaceOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Verify_PlaceOrder"/>
+        </methods>
+      </class> <!-- testCase.TC008_PlaceOrderTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

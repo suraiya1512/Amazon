@@ -1,0 +1,26 @@
+22:22:45.676 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\surai\eclipse-workspace\Amazon\Master.xml"
+22:22:50.590 [main] INFO  testCase.TC002_SignInTest - **** Starting TC002_SignInTest ****
+22:22:50.590 [main] DEBUG testCase.TC002_SignInTest - capturing application debug logs....
+22:22:55.680 [main] INFO  testCase.TC002_SignInTest - **** Finished TC002_SignInTest  ****
+22:22:59.301 [main] INFO  testCase.TC003_SearchProduct -  ******Starting TC_004_SearchProductTest****** 
+22:23:02.112 [main] INFO  testCase.TC003_SearchProduct -  Finished TC_004_SearchProductTest 
+22:23:05.665 [main] INFO  testCase.TC004_AddToCartTest -  Starting TC004_AddToCartPageTest 
+22:23:18.260 [main] INFO  testCase.TC004_AddToCartTest - **TC004_AddToCartPageTest Completed ***
+22:23:41.088 [main] INFO  testCase.TC005_ShoppingCartTest - **TC005_ShoppingCartTest Started ***
+22:23:50.290 [main] INFO  testCase.TC005_ShoppingCartTest - **TC005_ShoppingCartTest Completed ***
+22:24:33.230 [main] INFO  testCase.TC006_CheckOutTest - **TC006_CheckOutTest Started ***
+22:24:57.121 [main] INFO  testCase.TC006_CheckOutTest - **TC006_CheckOutTest Completed ***
+22:25:58.045 [main] INFO  testCase.TC007_PaymentTest - **TC007_PaymentTest Started ***
+22:26:12.721 [main] INFO  testCase.TC007_PaymentTest - **TC007_PaymentTest Completed ***
+22:27:07.990 [main] INFO  testCase.TC008_PlaceOrderTest - **TC008_PlaceOrderTest Started ***
+22:27:12.381 [main] INFO  testCase.TC008_PlaceOrderTest - Placing order...
+22:27:21.809 [main] INFO  testCase.TC008_PlaceOrderTest - Placing order  clicked...
+22:27:26.856 [main] INFO  testCase.TC008_PlaceOrderTest - [[ChromeDriver: chrome on windows (29a973796d70dda718f454290baaf85c)] -> xpath: //h4[@class='a-alert-heading']]
+22:27:26.884 [main] INFO  testCase.TC008_PlaceOrderTest - **TC008_PlaceOrderTest Completed ***
+22:31:57.783 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\surai\eclipse-workspace\Amazon\testng.xml"
+22:32:31.543 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\surai\eclipse-workspace\Amazon\testng.xml"
+22:32:31.789 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\surai\eclipse-workspace\Amazon\testng.xml
+
+22:32:37.342 [main] INFO  testCase.TC0010_EndT0EndTest - **TC0010_EndToEnd Test Started ***
+22:34:00.867 [main] INFO  testCase.TC0010_EndT0EndTest - **TC0010_EndToEnd Test Completed ***
